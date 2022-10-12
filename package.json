@@ -1,0 +1,21 @@
+{
+  "name": "@investments/monorepo",
+  "version": "0.1.0",
+  "author": "Domenico Omar Guzzi",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^18.8.4",
+    "lerna": "^5.5.4",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "start": "lerna run start",
+    "bootstrap": "lerna run bootstrap"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
